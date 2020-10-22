@@ -1,0 +1,23 @@
+{
+    "name": "alzpk/city-to-uule",
+    "description": "This package will help you turn a city name into a Google uule param.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Hansen",
+            "email": "mh1986@outlook.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/data-transfer-object": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alzpk\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
